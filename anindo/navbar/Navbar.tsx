@@ -7,8 +7,8 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[50px] !flex mt-[50px] mx-[100px] justify-between">
-      <div className=" w-[150px]">
+    <div className="w-full h-[50px] flex mt-[50px] mx-[100px] justify-between">
+      <Link href="/" className=" w-[150px]">
         <Image
           src={MainLogo}
           alt=""
@@ -17,7 +17,7 @@ const Navbar = () => {
           sizes="100"
           className="w-full h-auto"
         />
-      </div>
+      </Link>
       <div className=" flex justify-center items-center">
         <div className="flex flex-nowrap gap-20 text-white font-normal text-lg">
           {menuItems.map((item) => (
