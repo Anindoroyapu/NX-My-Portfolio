@@ -27,6 +27,9 @@ module.exports = {
       "5xl": "1999px",
     },
     extend: {
+      letterSpacing: {
+        "30-percent": "0.24em",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -13,7 +13,7 @@
   }
 
   body {
-    @apply bg-[#000] font-poppins font-normal text-base overflow-hidden;
+    @apply bg-[#000] font-poppins font-normal text-base;
   }
 }
 
@@ -112,7 +112,7 @@
 @layer utilities {
   .custom-scrollbar::-webkit-scrollbar,
   body::-webkit-scrollbar {
-    @apply w-1.5;
+    @apply w-0;
   }
 
   .custom-scrollbar::-webkit-scrollbar-track,
