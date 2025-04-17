@@ -8,47 +8,12 @@ import nameOrnament from "@/public/assets/icons/name-ornament.svg";
 
 const LandingPage = () => {
   return (
-    <div className="pt-[100px] text-white h-full w-full flex justify-center items-center">
-      <div className="  absolute ">
-        <div className="w-full mx-0 mt-10">
-          <Image
-            src={mainName}
-            alt=""
-            width={100}
-            height={100}
-            sizes="100"
-            className="w-full h-auto"
-          />
-        </div>
-        <span className="ml-[330px] lead-[29px] tracking-30-percent">
-          Creative UI/UX Designer
-        </span>
-      </div>
-      <div className=" flex w-full justify-between mt-[80px]">
-        <div className="w-[476px] ">
-          <Image
-            src={nameEllipse}
-            alt=""
-            width={100}
-            height={100}
-            sizes="100"
-            className="w-full h-auto"
-          />
-        </div>
-        <div className="w-[389px]">
-          <Image
-            src={lightning1}
-            alt=""
-            width={100}
-            height={100}
-            sizes="100"
-            className="w-full h-auto"
-          />
-        </div>
-        <div>
-          <div className="w-[186px] ml-20 mt-5">
+    <div className="h-[calc(100vh_-_140px)]">
+      <div className="pt-[100px] text-white h-full w-full flex justify-center items-center">
+        <div className="absolute">
+          <div className="w-full mx-0 mt-10">
             <Image
-              src={nameElement}
+              src={mainName}
               alt=""
               width={100}
               height={100}
@@ -56,15 +21,87 @@ const LandingPage = () => {
               className="w-full h-auto"
             />
           </div>
-          <div className="w-[379px] mt-44">
+          <span className="ml-[330px] lead-[29px] tracking-30-percent">
+            Creative UI/UX Designer
+          </span>
+        </div>
+        <div className=" flex w-full justify-between mt-[80px]">
+          <div className="w-[700px] -mt-28">
             <Image
-              src={nameOrnament}
+              src={nameEllipse}
               alt=""
               width={100}
               height={100}
               sizes="100"
               className="w-full h-auto"
             />
+          </div>
+          <div className="w-[389px]">
+            <Image
+              src={lightning1}
+              alt=""
+              width={100}
+              height={100}
+              sizes="100"
+              className="w-full h-auto"
+            />
+          </div>
+          <div>
+            <div className="w-[186px] ml-20 mt-5">
+              <Image
+                src={nameElement}
+                alt=""
+                width={100}
+                height={100}
+                sizes="100"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="w-[379px] mt-44">
+              <Image
+                src={nameOrnament}
+                alt=""
+                width={100}
+                height={100}
+                sizes="100"
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="text-white absolute top-[85%] left-[100px] ">
+        <div className=" text-white  max-w-[413px]">
+          <p className="text-base text-gray-300 leading-relaxed mb-3">
+            Proin efficitur, mauris vel condimentum pulvinar, velit orci
+            consectetur ligula
+          </p>
+
+          <div className="h-px w-full bg-gradient-to-r from-yellow-500 to-transparent mb-3" />
+
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-4">
+              <div className=" size-[62px]">
+                <Image
+                  src={mainName}
+                  alt=""
+                  width={0}
+                  height={0}
+                  sizes="100vh"
+                  className="size-full"
+                />
+              </div>
+
+              <div>
+                <h4 className="font-semibold">Eleanor Pena</h4>
+                <p className="text-gray-400 text-sm">Eleanor Pena</p>
+              </div>
+            </div>
+
+            <p className="text-teal-500 font-signature text-xl sm:text-2xl">
+              Eleanor Pena
+            </p>
           </div>
         </div>
       </div>

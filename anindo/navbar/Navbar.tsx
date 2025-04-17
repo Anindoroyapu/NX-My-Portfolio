@@ -30,6 +30,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [lastScrollY]);
+
   return (
     <div
       className={`w-full fixed h-[100px]   transition-transform duration-500 ${
@@ -47,6 +48,7 @@ const Navbar = () => {
             className="w-full h-auto"
           />
         </Link>
+
         <div className=" flex justify-center items-center">
           <div className="flex flex-nowrap gap-20 text-white font-normal text-lg">
             {menuItems.map((item) => (
