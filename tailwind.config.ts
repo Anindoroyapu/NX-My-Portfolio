@@ -80,6 +80,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: "var(--font-poppins)",
+        "Gilroy-Bold": "var(--font-gilroy-bold)",
       },
       spacing: {
         1.5: "0.375rem",

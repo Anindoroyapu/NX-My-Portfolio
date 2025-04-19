@@ -6,26 +6,13 @@ import iconMouse from "@/public/assets/icons/icon-mouse.svg";
 
 const IndexBody = () => {
   return (
-    <div className=" text-white mt-36">
-      <div className=" w-full flex">
-        <div className=" w-full flex justify-end">
-          <div className="w-[545px] ">
-            <Image
-              src={ProinFiciture}
-              alt=""
-              width={100}
-              height={100}
-              sizes="100"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
-        <div className=" w-full flex items-center mt-[100px]">
-          <div className=" ">
-            <div className="border w-0 h-[300px] ml-[100px]"></div>
-            <div className="w-[30px] ml-[87px] mt-[50px]">
+    <div className=" w-full flex justify-end">
+      <div className=" text-white mt-56 h-full  mr-[200px] w-[1223px] overflow-hidden">
+        <div className=" w-full flex">
+          <div className=" w-full flex justify-end">
+            <div className="w-[545px] h-auto">
               <Image
-                src={iconMouse}
+                src={ProinFiciture}
                 alt=""
                 width={100}
                 height={100}
@@ -33,26 +20,41 @@ const IndexBody = () => {
                 className="w-full h-auto"
               />
             </div>
-            <div className=" ml-[85px]  pt-[80px]">
-              <div className=" text-xl font-semibold ">
-                A design <br />
-                created with passion.
+          </div>
+          <div className=" w-full flex items-center mt-[100px]">
+            <div className=" ">
+              <div className="border w-0 h-[300px] ml-[100px]"></div>
+              <div className="w-[30px] ml-[87px] mt-[50px]">
+                <Image
+                  src={iconMouse}
+                  alt=""
+                  width={100}
+                  height={100}
+                  sizes="100"
+                  className="w-full h-auto"
+                />
               </div>
-              <div className=" text-sm  font-semibold mt-1.5 ">
-                Proin efficitur, mauris velt to <br /> condimentum pulvinar.
+              <div className=" ml-[85px]  pt-[70px]">
+                <div className=" text-xl font-semibold ">
+                  A design <br />
+                  created with passion.
+                </div>
+                <div className=" text-xs  font-semibold mt-1.5 ">
+                  Proin efficitur, mauris velt to condimentum pulvinar.
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="w-[363px] ml-[200px]">
-            <Image
-              src={graphicElements}
-              alt=""
-              width={100}
-              height={100}
-              sizes="100"
-              className="w-full h-auto"
-            />
+            <div className="w-[363px] ml-[100px]">
+              <Image
+                src={graphicElements}
+                alt=""
+                width={100}
+                height={100}
+                sizes="100"
+                className="w-full h-auto"
+              />
+            </div>
           </div>
         </div>
       </div>
