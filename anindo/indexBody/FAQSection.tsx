@@ -1,5 +1,6 @@
 import React from "react";
 import AnimationWork from "./AnimationWork";
+import { FAQList } from "./component/FAQList";
 
 const FAQSection = () => {
   return (
@@ -28,9 +29,53 @@ const FAQSection = () => {
       <div className=" text-[75px] font-bold uppercase leading-[100%]">
         For Your <span className="text-[50px] font-normal">Business.</span>
       </div>
-      <div>
+      <div className="flex items-center gap-[200px]">
         <div>
           <AnimationWork />
+        </div>
+        <div className=" w-full">
+          <div className="w-[100%] h-[1px] bg-gray-200 " />
+          {FAQList.map((item) => (
+            <div
+              key={item.id}
+              className="py-8 flex justify-between border-b-2 group"
+            >
+              <div className="flex text-white items-center gap-10">
+                <div className="text-lg font-bold">{item.sl}</div>
+                <div className="text-xl font-bold">{item.name}</div>
+              </div>
+              <div>
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="group-hover:hidden"
+                >
+                  <circle cx="15" cy="14.9998" r="15" fill="#333333" />
+                  <path
+                    d="M22.9839 10.1786C23.0827 9.63526 22.7223 9.11468 22.1789 9.01589L13.3241 7.40592C12.7807 7.30712 12.2601 7.66753 12.1613 8.2109C12.0625 8.75428 12.4229 9.27486 12.9663 9.37366L20.8372 10.8047L19.4062 18.6757C19.3074 19.2191 19.6678 19.7397 20.2111 19.8385C20.7545 19.9373 21.2751 19.5768 21.3739 19.0335L22.9839 10.1786ZM9.56921 19.8219L22.5692 10.8219L21.4308 9.17756L8.43079 18.1776L9.56921 19.8219Z"
+                    fill="white"
+                  />
+                </svg>
+                <svg
+                  width="54"
+                  height="54"
+                  viewBox="0 0 54 54"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="hidden group-hover:block"
+                >
+                  <circle cx="27" cy="26.9998" r="27" fill="#48FF76" />
+                  <path
+                    d="M40.5838 18.1787C40.6826 17.6353 40.3222 17.1147 39.7788 17.0159L30.924 15.4059C30.3806 15.3071 29.86 15.6675 29.7613 16.2109C29.6625 16.7543 30.0229 17.2749 30.5662 17.3737L38.4372 18.8048L37.0061 26.6757C36.9073 27.2191 37.2677 27.7397 37.8111 27.8385C38.3545 27.9373 38.8751 27.5769 38.9739 27.0335L40.5838 18.1787ZM16.7692 35.022L40.1692 18.822L39.0307 17.1776L15.6307 33.3776L16.7692 35.022Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
