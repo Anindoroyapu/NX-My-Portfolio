@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar";
 import LandingPage from "./landingPage/LandingPage";
 import IndexBody from "./indexBody/IndexBody";
 import WorkSection from "./indexBody/WorkSection";
+import FAQSection from "./indexBody/FAQSection";
 
 const IndexPage = () => {
   return (
@@ -16,6 +17,7 @@ const IndexPage = () => {
       {/* body */}
       <IndexBody />
       <WorkSection />
+      <FAQSection />
     </div>
   );
 };
