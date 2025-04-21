@@ -4,6 +4,7 @@ import LandingPage from "./landingPage/LandingPage";
 import IndexBody from "./indexBody/IndexBody";
 import WorkSection from "./indexBody/WorkSection";
 import FAQSection from "./indexBody/FAQSection";
+import DividerSection from "./indexBody/DividerSection";
 
 const IndexPage = () => {
   return (
@@ -18,6 +19,7 @@ const IndexPage = () => {
       <IndexBody />
       <WorkSection />
       <FAQSection />
+      <DividerSection />
     </div>
   );
 };
