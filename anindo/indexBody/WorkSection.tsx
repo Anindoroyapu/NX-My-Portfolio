@@ -48,7 +48,7 @@ const WorkSection = () => {
           </defs>
         </svg>
       </div>
-      <div className="size-64 gap-2 mt-68 bg-white rounded-full text-black items-center text-[28px] flex justify-center ">
+      <div className="size-64 gap-2 mt-[200px] bg-white rounded-full text-black items-center text-[28px] flex justify-center ">
         <span> View More</span>
         <svg
           width="18"
@@ -77,7 +77,7 @@ const WorkSection = () => {
       </div>
       <div className="absolute  top-100  -left-[100px] -right-[100px]">
         <div className="flex gap-[100px] ">
-          <div className=" float-left max-h-[971px] h-full max-w-[875px] w-full">
+          <div className=" float-left max-h-[971px] mt-[50px] h-full max-w-[875px] w-full">
             <Image
               src={workPhoto01}
               alt=""
@@ -87,7 +87,7 @@ const WorkSection = () => {
               className="size-full"
             />
           </div>
-          <div className=" float-right  max-w-[948px] w-full max-h-[600px] h-full mt-[200px]">
+          <div className=" float-right  max-w-[948px] w-full max-h-[600px] h-full mt-[150px]">
             <Image
               src={workPhoto02}
               alt=""
@@ -98,8 +98,8 @@ const WorkSection = () => {
             />
           </div>
         </div>
-        <div className="flex gap-[100px] mt-[100px]">
-          <div className="max-w-[1050px] max-h-[710px] w-full h-full">
+        <div className="flex gap-[100px] ">
+          <div className="max-w-[1050px] max-h-[710px] mt-[100px] w-full h-full">
             <Image
               src={workPhoto03}
               alt=""
