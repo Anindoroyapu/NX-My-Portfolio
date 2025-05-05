@@ -1,7 +1,8 @@
 import React from "react";
 import AnimationWork from "./AnimationWork";
 import { FAQList } from "./component/FAQList";
-
+import Image from "next/image";
+import workPhoto01 from "./component/AnimationWork.svg";
 const FAQSection = () => {
   return (
     <div className=" mt-[200vh] mx-[100px]  text-white">
@@ -31,7 +32,14 @@ const FAQSection = () => {
       </div>
       <div className="flex items-center gap-[200px]">
         <div>
-          <AnimationWork />
+          <Image
+            src={workPhoto01}
+            alt=""
+            width={0}
+            height={0}
+            sizes="100"
+            className="size-full"
+          />
         </div>
         <div className=" w-full">
           <div className="w-[100%] h-[1px] bg-gray-200 " />
