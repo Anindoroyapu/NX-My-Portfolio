@@ -30,7 +30,7 @@ const FAQSection = () => {
       <div className=" text-[75px] font-bold uppercase leading-[100%]">
         For Your <span className="text-[50px] font-normal">Business.</span>
       </div>
-      <div className="flex items-center gap-[200px]">
+      <div className="flex items-center gap-[200px] mt-[50px]">
         <div>
           <Image
             src={workPhoto01}
@@ -68,14 +68,14 @@ const FAQSection = () => {
                   />
                 </svg>
                 <svg
-                  width="54"
-                  height="54"
-                  viewBox="0 0 54 54"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 30 30"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="hidden group-hover:block"
+                  className="hidden group-hover:block "
                 >
-                  <circle cx="27" cy="26.9998" r="27" fill="#48FF76" />
+                  <circle x="15" cy="14.9998" r="15" fill="#48FF76" />
                   <path
                     d="M40.5838 18.1787C40.6826 17.6353 40.3222 17.1147 39.7788 17.0159L30.924 15.4059C30.3806 15.3071 29.86 15.6675 29.7613 16.2109C29.6625 16.7543 30.0229 17.2749 30.5662 17.3737L38.4372 18.8048L37.0061 26.6757C36.9073 27.2191 37.2677 27.7397 37.8111 27.8385C38.3545 27.9373 38.8751 27.5769 38.9739 27.0335L40.5838 18.1787ZM16.7692 35.022L40.1692 18.822L39.0307 17.1776L15.6307 33.3776L16.7692 35.022Z"
                     fill="white"
