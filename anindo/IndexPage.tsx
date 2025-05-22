@@ -5,6 +5,7 @@ import IndexBody from "./indexBody/IndexBody";
 import WorkSection from "./indexBody/WorkSection";
 import FAQSection from "./indexBody/FAQSection";
 import DividerSection from "./indexBody/DividerSection";
+import AwardEventsSection from "./indexBody/AwardEventsSection";
 
 const IndexPage = () => {
   return (
@@ -20,6 +21,7 @@ const IndexPage = () => {
       <WorkSection />
       <FAQSection />
       <DividerSection />
+      <AwardEventsSection />
     </div>
   );
 };

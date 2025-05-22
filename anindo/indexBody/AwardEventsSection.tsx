@@ -1,0 +1,91 @@
+import React from "react";
+
+const AwardEventsSection = () => {
+  return (
+    <div className=" mt-[106px] text-white flex ml-[-77px] w-screen pb-[140px]">
+      <div className="w-[500px] flex flex-col justify-between ">
+        <div className=" w-full text-center text-[#48FF76] font-rubik text-base leading-7 uppercase tracking-[4px] font-light">
+          awards & Events
+        </div>
+        <div className=" w-full items-center flex justify-center">
+          <svg
+            width="247"
+            height="272"
+            viewBox="0 0 247 272"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.6662 190.302C27.4146 192.493 22.8823 193.94 19.3792 196.693C15.8001 199.506 13.0613 203.475 10.2778 207.179C8.37074 209.716 6.18216 212.505 5.60484 215.471C4.67087 220.268 4.74764 225.304 4.80681 230.235C4.8428 233.251 5.85832 236.243 6.06063 239.271C6.63476 247.875 6.9586 256.495 7.52394 265.099C7.63349 266.761 8.43711 268.37 8.81694 270.027C8.93048 270.522 8.78895 271.516 8.59624 271.56C8.0285 271.691 7.21129 271.674 6.78509 271.34C4.71246 269.72 3.3267 267.685 3.34829 264.898C3.37948 260.783 3.65615 256.642 3.29152 252.56C2.59905 244.804 1.55553 237.078 0.60318 229.346C-0.509898 220.307 2.25201 212.63 7.11453 204.908C12.7439 195.966 21.403 192.067 29.9326 187.237C38.459 182.408 47.2405 182.563 56.1332 184.116C61.3171 185.02 64.5068 189.632 67.8565 193.464C69.5221 195.37 70.8839 197.566 72.6822 199.325C76.083 202.649 80.1803 201.928 84.4023 201.157C94.3345 199.345 101.099 193.922 103.579 184.111C104.513 180.418 104.774 176.142 103.884 172.484C101.629 163.216 98.2303 154.226 95.9361 144.965C94.7783 140.288 95.2636 135.229 94.5792 130.403C93.5516 123.163 95.4436 116.599 98.798 110.405C102.351 103.844 108.037 99.3154 114.53 95.9521C117.88 94.2162 121.964 94.4808 125.06 96.2976C130.278 99.3593 135.513 102.736 139.831 106.918C147.744 114.581 161.926 113.784 167.449 104.048C169.723 100.038 173.078 96.5367 174.786 92.3354C177.555 85.5186 176.643 78.3772 174.539 71.4092C172.573 64.9035 170.433 58.4345 168.846 51.836C167.834 47.6244 170.76 39.4034 176.054 37.1333C180.616 35.1766 185.19 33.0816 189.966 31.8542C192.61 31.1745 195.863 31.6071 198.519 32.4979C203.095 34.0323 207.05 31.6694 211.296 31.4016C216.303 31.0857 217.738 26.4815 220.8 23.8507C222.123 22.7136 223.177 21.2247 224.19 19.7814C224.629 19.1585 224.656 18.2469 224.869 17.4665C224.156 17.3753 223.444 17.2274 222.727 17.2066C221.828 17.1794 220.924 17.2426 220.023 17.2914C218.947 17.3498 217.873 17.4345 216.799 17.5073C217.555 16.5637 218.124 15.2955 219.1 14.7286C225.262 11.1511 231.533 7.76145 237.725 4.2343C239.316 3.32832 240.668 1.97903 242.294 1.16365C243.292 0.663569 244.779 0.352114 245.738 0.732576C247.486 1.42569 246.234 2.62417 245.83 3.76172C243.871 9.27434 244.096 14.9149 245.133 20.5738C245.543 22.8088 246.129 25.0469 246.157 27.2899C246.164 27.8304 244.052 29.0803 243.286 28.8364C238.382 27.2803 233.343 25.8514 229.784 21.6989C227.618 19.1729 226.87 22.0699 226.012 22.9535C223.953 25.0757 222.154 27.4682 220.384 29.8511C217.304 33.9996 212.637 35.2214 208.075 35.6628C202.03 36.2473 195.887 35.8067 189.787 35.8067C181.805 35.8067 175.175 40.4222 173.444 48.1329C172.787 51.0612 173.664 54.5179 174.491 57.5573C176.243 63.9975 179.082 70.205 180.227 76.7267C181.247 82.5392 180.714 88.6468 178.378 94.3601C175.367 101.721 170.053 107.339 164.264 112.45C162.412 114.086 159.491 114.804 156.935 115.302C147.853 117.072 140.779 113.228 134.55 106.985C132.311 104.741 129.796 102.644 127.08 101.03C121.047 97.4418 116.157 98.2447 110.549 102.449C104.345 107.101 100.599 113.545 99.0411 120.584C97.7257 126.527 98.5165 133.062 99.0938 139.269C99.9382 148.363 104.333 156.521 106.769 165.177C108.921 172.828 110.393 180.805 106.424 188.901C100.464 201.06 88.574 206.078 76.7707 205.163C71.5284 204.757 68.6681 200.705 65.8022 196.87C62.7125 192.734 59.6443 188.274 54.2213 187.261C50.2831 186.526 46.0819 186.391 42.1101 186.886C38.6054 187.323 35.2558 189.001 31.6662 190.302Z"
+              fill="white"
+              fillOpacity="0.2"
+            />
+          </svg>
+        </div>
+      </div>
+      <div className="flex flex-col w-full ">
+        <div className="text-white mt-12 font-Gilroy-Bold font-medium text-[75px] uppercase leading-[100%] ">
+          See our Awards and <br />
+          Events
+        </div>
+        <div className="my-[60px] h-[1px] w-full bg-white"></div>
+        <div className=" flex justify-between w-full gap-[118px]">
+          <div className=" w-full">
+            <div className="tracking-[10px] font-Gilroy-Bold font-normal text-[28px] uppercase">
+              Awards
+            </div>
+            <div className=" mt-7.5 font-rubik text-base text-[#B0B0B0] ">
+              Proin efficitur, mauris vel condimentum pulvinar, velit
+              <br /> orci consectetur ligula
+            </div>
+            <div className="my-[50px] h-[1px] w-full bg-white"></div>
+            <div className=" flex justify-between w-full ">
+              <div>AWWWARDS AWARD</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">June 2023</div>
+            </div>
+            <div className=" flex justify-between w-full pt-10">
+              <div>CLIENT CAMPAIN 2020</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">October 2022</div>
+            </div>
+            <div className=" flex justify-between w-full pt-10">
+              <div>ANIMATION DESIGN</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">April 2019</div>
+            </div>
+            <div className=" flex justify-between w-full pt-10">
+              <div>2. PLACE OF THE DAY</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">January 2017</div>
+            </div>
+          </div>
+          <div className=" w-full">
+            <div className="tracking-[10px] font-Gilroy-Bold font-normal text-[28px] uppercase">
+              events
+            </div>
+            <div className=" mt-7.5 font-rubik text-base text-[#B0B0B0] ">
+              Proin efficitur, mauris vel condimentum pulvinar, velit
+              <br /> orci consectetur ligula
+            </div>
+            <div className="my-[50px] h-[1px] w-full bg-white"></div>
+            <div className=" flex justify-between w-full">
+              <div>AWWWARDS AWARD</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">June 2023</div>
+            </div>
+            <div className=" flex justify-between w-full pt-10">
+              <div>CLIENT CAMPAIN 2020</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">October 2022</div>
+            </div>
+            <div className=" flex justify-between w-full pt-10">
+              <div>ANIMATION DESIGN</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">April 2019</div>
+            </div>
+            <div className=" flex justify-between w-full pt-10">
+              <div>2. PLACE OF THE DAY</div>
+              <div className=" text-[#B0B0B0] tracking-[4px]">January 2017</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AwardEventsSection;
