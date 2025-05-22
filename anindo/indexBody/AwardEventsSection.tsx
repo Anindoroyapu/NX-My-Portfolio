@@ -1,4 +1,42 @@
-import React from "react";
+import React, { FC } from "react";
+
+const AwardEventsSectionDateComp: FC<{ awards: string; date: string }> = ({
+  awards,
+  date,
+}) => {
+  return (
+    <div className=" flex justify-between w-full pt-10">
+      <div>{awards}</div>
+      <div className=" text-[#B0B0B0] tracking-[4px]">{date}</div>
+    </div>
+  );
+};
+
+export const AwardEventsComp: FC<{ title: string }> = ({ title }) => {
+  return (
+    <div className=" w-full">
+      <div className="tracking-[10px] font-Gilroy-Bold font-normal text-[28px] uppercase">
+        {title}
+      </div>
+      <div className=" mt-7.5 font-rubik text-base text-[#B0B0B0] ">
+        Proin efficitur, mauris vel condimentum pulvinar, velit
+        <br /> orci consectetur ligula
+      </div>
+      <div className="mt-[50px] h-[1px] w-full bg-white"></div>
+
+      <AwardEventsSectionDateComp awards="AWWWARDS AWARD" date="June 2023" />
+      <AwardEventsSectionDateComp
+        awards="CLIENT CAMPAIN 2020"
+        date="October 2022"
+      />
+      <AwardEventsSectionDateComp awards="ANIMATION DESIGN" date="April 2019" />
+      <AwardEventsSectionDateComp
+        awards="2. PLACE OF THE DAY"
+        date="January 2017"
+      />
+    </div>
+  );
+};
 
 const AwardEventsSection = () => {
   return (
@@ -30,58 +68,8 @@ const AwardEventsSection = () => {
         </div>
         <div className="my-[60px] h-[1px] w-full bg-white"></div>
         <div className=" flex justify-between w-full gap-[118px]">
-          <div className=" w-full">
-            <div className="tracking-[10px] font-Gilroy-Bold font-normal text-[28px] uppercase">
-              Awards
-            </div>
-            <div className=" mt-7.5 font-rubik text-base text-[#B0B0B0] ">
-              Proin efficitur, mauris vel condimentum pulvinar, velit
-              <br /> orci consectetur ligula
-            </div>
-            <div className="my-[50px] h-[1px] w-full bg-white"></div>
-            <div className=" flex justify-between w-full ">
-              <div>AWWWARDS AWARD</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">June 2023</div>
-            </div>
-            <div className=" flex justify-between w-full pt-10">
-              <div>CLIENT CAMPAIN 2020</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">October 2022</div>
-            </div>
-            <div className=" flex justify-between w-full pt-10">
-              <div>ANIMATION DESIGN</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">April 2019</div>
-            </div>
-            <div className=" flex justify-between w-full pt-10">
-              <div>2. PLACE OF THE DAY</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">January 2017</div>
-            </div>
-          </div>
-          <div className=" w-full">
-            <div className="tracking-[10px] font-Gilroy-Bold font-normal text-[28px] uppercase">
-              events
-            </div>
-            <div className=" mt-7.5 font-rubik text-base text-[#B0B0B0] ">
-              Proin efficitur, mauris vel condimentum pulvinar, velit
-              <br /> orci consectetur ligula
-            </div>
-            <div className="my-[50px] h-[1px] w-full bg-white"></div>
-            <div className=" flex justify-between w-full">
-              <div>AWWWARDS AWARD</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">June 2023</div>
-            </div>
-            <div className=" flex justify-between w-full pt-10">
-              <div>CLIENT CAMPAIN 2020</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">October 2022</div>
-            </div>
-            <div className=" flex justify-between w-full pt-10">
-              <div>ANIMATION DESIGN</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">April 2019</div>
-            </div>
-            <div className=" flex justify-between w-full pt-10">
-              <div>2. PLACE OF THE DAY</div>
-              <div className=" text-[#B0B0B0] tracking-[4px]">January 2017</div>
-            </div>
-          </div>
+          <AwardEventsComp title="Awards" />
+          <AwardEventsComp title="events" />
         </div>
       </div>
     </div>
