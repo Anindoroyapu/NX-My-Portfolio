@@ -25,14 +25,16 @@ const TestimonialSection = () => {
             </svg>
 
             <div className="w-[896px]">
-              <div className="  text-white">
+              <div className="  text-white font-medium text-[24px] font-rubik ">
                 “ I have been a loyal customer of this auto parts company for
                 years and I cannot recommend them enough. Their extensive
                 selection of high-quality parts and accessories, combined with
                 their competitive prices. ”
               </div>
-              <div>Marvin McKinney</div>
-              <div>Web designer</div>
+              <div className="  text-white font-medium text-[24px] font-rubik  pt-7.5">
+                Marvin McKinney
+              </div>
+              <div className=" text-[#B0B0B0] text-sm">Web designer</div>
             </div>
           </div>
         </div>
