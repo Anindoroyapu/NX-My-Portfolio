@@ -7,6 +7,7 @@ import FAQSection from "./indexBody/FAQSection";
 import DividerSection from "./indexBody/DividerSection";
 import AwardEventsSection from "./indexBody/AwardEventsSection";
 import BlogSection from "./indexBody/BlogSection";
+import TestimonialSection from "./indexBody/TestimonialSection";
 
 const IndexPage = () => {
   return (
@@ -24,6 +25,7 @@ const IndexPage = () => {
       <DividerSection />
       <AwardEventsSection />
       <BlogSection />
+      <TestimonialSection />
     </div>
   );
 };

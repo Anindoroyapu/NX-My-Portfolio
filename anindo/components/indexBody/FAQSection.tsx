@@ -1,8 +1,8 @@
 import React from "react";
-import AnimationWork from "./AnimationWork";
 import { FAQList } from "./component/FAQList";
 import Image from "next/image";
 import workPhoto01 from "./component/AnimationWork.svg";
+
 const FAQSection = () => {
   return (
     <div className=" mt-[200vh] mx-[100px]  text-white">

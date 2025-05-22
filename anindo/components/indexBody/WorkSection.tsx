@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import workPhoto01 from "../../public//assets/image/work_photo_1.png";
-import workPhoto02 from "../../public//assets/image/work_photo_2.png";
-import workPhoto03 from "../../public//assets/image/work_photo_3.png";
-import workPhoto04 from "../../public//assets/image/work_photo_4.png";
+import workPhoto01 from "@/public/assets/image/work_photo_1.png";
+import workPhoto02 from "@/public//assets/image/work_photo_2.png";
+import workPhoto03 from "@/public//assets/image/work_photo_3.png";
+import workPhoto04 from "@/public//assets/image/work_photo_4.png";
 
 const WorkSection = () => {
   return (

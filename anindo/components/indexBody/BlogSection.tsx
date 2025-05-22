@@ -4,7 +4,7 @@ import blogImg01 from "@/public/assets/image/cb706f10c8569303c0fb205b71eb6b750e3
 import blogImg02 from "@/public/assets/image/3ffdfee6cdc306d1adc3430804da278f1e354669.jpg";
 import blogImg03 from "@/public/assets/image/c47896f7163021ce9d6845e9e15f10ffb7c61808.jpg";
 import Link from "next/link";
-import { cn } from "../utils/cn";
+import { cn } from "../../utils/cn";
 
 const BlogSectionImageComp: FC<{ image: any; className: string }> = ({
   image,
