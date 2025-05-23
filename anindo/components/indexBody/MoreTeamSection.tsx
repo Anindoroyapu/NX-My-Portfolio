@@ -10,10 +10,10 @@ const MoreTeamWorkComp: FC<{ number: number | string; work: string }> = ({
 }) => {
   return (
     <div className=" flex flex-col gap-5">
-      <h1 className="text-[120px] font-Gilroy-Bold leading-[100%] text-center font-medium">
+      <h1 className="text-[120px] font-Gilroy-Bold leading-[100%] text-center font-bold">
         {number}
       </h1>
-      <span className="text-center font-rubik text-lg font-bold tracking-[6px]">
+      <span className="text-center font-rubik text-lg font-bold tracking-[7px]">
         {work}
       </span>
     </div>
@@ -45,7 +45,7 @@ const MoreTeamImageComp: FC<{ img: any; name: string; tag: string }> = ({
 const MoreTeamHeader = () => {
   return (
     <div className=" flex">
-      <div className="w-[500px] flex flex-col justify-between ">
+      <div className="w-[460px] flex flex-col justify-between ">
         <div className=" w-full text-center text-[#48FF76] font-rubik text-base leading-7 uppercase tracking-[4px] font-light">
           more team
         </div>
