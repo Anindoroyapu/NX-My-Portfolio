@@ -6,8 +6,8 @@ import iconMouse from "@/public/assets/icons/icon-mouse.svg";
 
 const IndexBody = () => {
   return (
-    <div className=" w-full flex justify-end">
-      <div className=" text-white mt-[28px] h-full  mr-[200px] w-[1223px] overflow-hidden">
+    <div className=" w-full flex justify-end mt-7.5">
+      <div className=" text-white mt-[28px] h-full  mr-[184px] w-[1223px] overflow-hidden">
         <div className=" w-full flex">
           <div className=" w-full flex justify-end">
             <div className="w-[545px] h-auto">
@@ -21,10 +21,10 @@ const IndexBody = () => {
               />
             </div>
           </div>
-          <div className=" w-full flex items-center mt-[100px]">
+          <div className=" w-full flex  mt-[100px]">
             <div className=" ">
               <div className="border w-0 h-[300px] ml-[100px]"></div>
-              <div className="w-[30px] ml-[87px] mt-[50px]">
+              <div className="w-[30px] ml-[87px] ">
                 <Image
                   src={iconMouse}
                   alt=""
@@ -34,7 +34,7 @@ const IndexBody = () => {
                   className="w-full h-auto"
                 />
               </div>
-              <div className=" ml-[85px]  pt-[70px]">
+              <div className=" ml-[85px]  pt-[70px] w-[200px]">
                 <div className=" text-xl font-semibold uppercase ">
                   A design <br />
                   created with passion.
@@ -45,7 +45,7 @@ const IndexBody = () => {
               </div>
             </div>
 
-            <div className="min-w-[363px] ml-[100px]">
+            <div className="min-w-[363px] ">
               <Image
                 src={graphicElements}
                 alt=""

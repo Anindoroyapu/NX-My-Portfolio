@@ -8,7 +8,7 @@ import workPhoto04 from "@/public//assets/image/work_photo_4.png";
 const WorkSection = () => {
   return (
     <div className="mt-5 relative mx-[100px] text-white flex justify-between">
-      <div className=" text-base uppercase text-[#4BFF7A]  mt-14">
+      <div className="text-center text-[#48FF76] font-rubik text-base leading-7 uppercase tracking-[4px] font-light">
         portfolio
       </div>
       <div className="  text-[75px] leading-[100%] font-Gilroy-Bold mt-24">
