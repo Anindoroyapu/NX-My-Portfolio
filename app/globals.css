@@ -4,7 +4,12 @@
 
 @layer base {
   * {
-    font-family: var(--font-poppins);
+    /* font-family: var(--font-poppins); */
+    fontfamily: {
+      poppins: var(--font-poppins);
+      gilroy-bold: var(--font-gilroy-bold);
+      rubik: Rubik;
+    }
   }
 
   html {
@@ -13,7 +18,7 @@
   }
 
   body {
-    @apply bg-[#000] font-poppins font-normal text-base;
+    @apply bg-[#000] font-poppins font-normal text-base text-white;
   }
 }
 

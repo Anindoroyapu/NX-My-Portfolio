@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialSection = () => {
   return (
-    <div className=" border-y  py-[140px]">
+    <div className=" border-b  py-[140px]">
       <div className=" flex">
         <div className="w-[500px] flex flex-col justify-between ">
           <div className=" w-full text-center text-[#48FF76] font-rubik text-base leading-7 uppercase tracking-[4px] font-light">
