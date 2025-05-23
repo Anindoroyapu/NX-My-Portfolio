@@ -34,7 +34,7 @@ const TeamWorkSection = () => {
       </div>
       <div className="w-[497px] h-[467px] ">
         <TeamWorkImage img={teamWorkImg04} />
-      </div>{" "}
+      </div>
       <div className="w-[473px] h-[467px] ">
         <TeamWorkImage img={teamWorkImg05} />
       </div>
