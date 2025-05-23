@@ -9,16 +9,15 @@ import AwardEventsSection from "./indexBody/AwardEventsSection";
 import BlogSection from "./indexBody/BlogSection";
 import TestimonialSection from "./indexBody/TestimonialSection";
 import MoreTeamSection from "./indexBody/MoreTeamSection";
+import TeamWorkSection from "./indexBody/TeamWorkSection";
 
 const IndexPage = () => {
   return (
     <div className=" w-full h-auto ">
       {/* navbar */}
       <Navbar />
-
       {/* landing page */}
       <LandingPage />
-
       {/* body */}
       <IndexBody />
       <WorkSection />
@@ -28,6 +27,7 @@ const IndexPage = () => {
       <BlogSection />
       <TestimonialSection />
       <MoreTeamSection />
+      <TeamWorkSection />
     </div>
   );
 };

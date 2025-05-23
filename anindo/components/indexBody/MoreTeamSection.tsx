@@ -13,7 +13,7 @@ const MoreTeamWorkComp: FC<{ number: number | string; work: string }> = ({
       <h1 className="text-[120px] font-Gilroy-Bold leading-[100%] text-center font-medium">
         {number}
       </h1>
-      <span className="text-center font-rubik text-lg font-bold tracking-[5px]">
+      <span className="text-center font-rubik text-lg font-bold tracking-[6px]">
         {work}
       </span>
     </div>
