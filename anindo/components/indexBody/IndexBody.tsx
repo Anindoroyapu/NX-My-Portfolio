@@ -7,7 +7,7 @@ import iconMouse from "@/public/assets/icons/icon-mouse.svg";
 const IndexBody = () => {
   return (
     <div className=" w-full flex justify-end">
-      <div className=" text-white mt-56 h-full  mr-[200px] w-[1223px] overflow-hidden">
+      <div className=" text-white mt-[28px] h-full  mr-[200px] w-[1223px] overflow-hidden">
         <div className=" w-full flex">
           <div className=" w-full flex justify-end">
             <div className="w-[545px] h-auto">
@@ -35,7 +35,7 @@ const IndexBody = () => {
                 />
               </div>
               <div className=" ml-[85px]  pt-[70px]">
-                <div className=" text-xl font-semibold ">
+                <div className=" text-xl font-semibold uppercase ">
                   A design <br />
                   created with passion.
                 </div>
@@ -45,7 +45,7 @@ const IndexBody = () => {
               </div>
             </div>
 
-            <div className="w-[363px] ml-[100px]">
+            <div className="min-w-[363px] ml-[100px]">
               <Image
                 src={graphicElements}
                 alt=""

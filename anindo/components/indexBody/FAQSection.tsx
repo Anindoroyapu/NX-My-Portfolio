@@ -31,7 +31,7 @@ const FAQSection = () => {
         For Your <span className="text-[50px] font-normal">Business.</span>
       </div>
       <div className="flex items-center gap-[200px] mt-[50px]">
-        <div>
+        <div className="w-[513px] h-auto">
           <Image
             src={workPhoto01}
             alt=""
@@ -59,7 +59,7 @@ const FAQSection = () => {
                   viewBox="0 0 30 30"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="group-hover:hidden"
+                  className="group-hover:hidden group-hover:opacity-0"
                 >
                   <circle cx="15" cy="14.9998" r="15" fill="#333333" />
                   <path
