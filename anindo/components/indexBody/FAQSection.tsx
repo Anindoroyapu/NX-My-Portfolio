@@ -5,7 +5,7 @@ import workPhoto01 from "./component/AnimationWork.svg";
 
 const FAQSection = () => {
   return (
-    <div className=" mt-[200vh] mx-[100px]  text-white">
+    <div className=" mt-[200vh] pt-[130px] mx-[100px]  text-white">
       <div className="flex items-center gap-32">
         <div className=" text-[50px] uppercase leading-[100%]">
           Unique <span className="text-[75px] font-bold">Ideas</span>
