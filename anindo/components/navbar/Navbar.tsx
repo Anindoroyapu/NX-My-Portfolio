@@ -7,8 +7,8 @@ import { menuItems } from "./NavbarMenuList";
 import Link from "next/link";
 
 const Navbar = () => {
-  const [showNavbar, setShowNavbar] = useState(true); // Navbar visibility state
-  const [lastScrollY, setLastScrollY] = useState(0); // Last scroll position
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
