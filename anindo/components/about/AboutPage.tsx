@@ -6,6 +6,7 @@ import ContactBtn from "@/anindo/shared/ContactBtn";
 import AboutDetailsSection from "./AboutDetailsSection";
 import { SvgIcon } from "@/anindo/libs/icon";
 import AboutBannarSection from "./AboutBannarSection";
+import AboutTeamSection from "./AboutTeamSection";
 
 const AnimationDelay = () => {
   return (
@@ -68,6 +69,7 @@ const AboutPage = () => {
           </div>
         </div>
         <AboutBannarSection />
+        <AboutTeamSection />
       </div>
     </FadeInSection>
   );
