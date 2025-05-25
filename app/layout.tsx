@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import FooterPage from "@/anindo/components/footer/FooterPage";
 import Navbar from "@/anindo/components/navbar/Navbar";
+import FadeInSection from "@/anindo/shared/FadeInSection";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,10 +33,12 @@ export default function RootLayout({
       >
         {/* navbar */}
         <Navbar />
+        {/* <FadeInSection> */}
         {children}
 
         {/* footer */}
         <FooterPage />
+        {/* </FadeInSection> */}
       </body>
     </html>
   );
