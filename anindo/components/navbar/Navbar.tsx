@@ -33,8 +33,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full fixed h-[100px] transition-transform duration-500 z-50  ${
-        showNavbar ? "translate-y-0" : "-translate-y-full "
+      className={`w-full fixed h-[100px]  top-0 transition-transform duration-500 z-50 backdrop-blur-[5px] mr-[5px]   ${
+        showNavbar ? "translate-y-0 " : "-translate-y-full "
       }`}
     >
       <div className=" flex justify-between mt-[50px] ">
@@ -54,7 +54,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <div key={item.href}>
                 <Link href={item.href}>
-                  <div className="hover:text-primary text-white">
+                  <div className=" text-white font-Gilroy-Bold font-medium">
                     {item.label}
                   </div>
                 </Link>

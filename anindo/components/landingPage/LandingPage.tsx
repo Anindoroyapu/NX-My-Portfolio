@@ -5,12 +5,12 @@ import lightning1 from "@/public/assets/icons/lightning-1.svg";
 import nameElement from "@/public/assets/icons/name-element.svg";
 import nameEllipse from "@/public/assets/icons/name-ellipse.svg";
 import nameOrnament from "@/public/assets/icons/name-ornament.svg";
-import landingLastImgs from "@/public/assets/image/sign.png";
 import { SignSvg } from "../indexBody/component/svg-icon";
+import FadeInSection from "@/anindo/shared/FadeInSection";
 
 const LandingPage = () => {
   return (
-    <div className="h-screen">
+    <div className="h-screen ">
       <div className="pt-[100px] text-white h-full w-full flex justify-center items-center">
         <div className="absolute">
           <div className="w-full mx-0 mt-10">

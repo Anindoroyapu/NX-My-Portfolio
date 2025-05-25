@@ -11,26 +11,34 @@ import TestimonialSection from "./indexBody/TestimonialSection";
 import MoreTeamSection from "./indexBody/MoreTeamSection";
 import TeamWorkSection from "./indexBody/TeamWorkSection";
 import FooterPage from "./footer/FooterPage";
+import FadeInSection from "../shared/FadeInSection";
 
 const IndexPage = () => {
   return (
     <div className=" w-full h-auto ">
-      {/* navbar */}
-      <Navbar />
-      {/* landing page */}
-      <LandingPage />
-      {/* body */}
-      <IndexBody />
-      <WorkSection />
-      <FAQSection />
-      <DividerSection />
-      <AwardEventsSection />
-      <BlogSection />
-      <TestimonialSection />
-      <MoreTeamSection />
-      <TeamWorkSection />
-      {/* footer */}
-      <FooterPage />
+      <FadeInSection>
+        {/* landing page */}
+        <LandingPage />
+        {/* body */}
+
+        <IndexBody />
+
+        <WorkSection />
+
+        <FAQSection />
+
+        <DividerSection />
+
+        <AwardEventsSection />
+
+        <BlogSection />
+
+        <TestimonialSection />
+
+        <MoreTeamSection />
+
+        <TeamWorkSection />
+      </FadeInSection>
     </div>
   );
 };
