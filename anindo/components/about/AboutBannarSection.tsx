@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 const Star = () => {
   return (
@@ -18,15 +19,25 @@ const Star = () => {
 
 const AboutBannarSection = () => {
   return (
-    <div className=" my-[140px] gap-12.5 h-[100px] bg-[#48FF76] text-[38px] uppercase font-Gilroy-Bold font-medium items-center flex justify-center text-black">
-      <span>Web Design </span>
-      <Star />
-      <span>UX / UI Designer</span>
-      <Star />
-      <span>See all brand</span>
-      <Star />
-      <span>How to get my design</span>
-      <Star />
+    <div className="relative my-[140px] h-[100px] bg-[#48FF76] flex items-center overflow-hidden">
+      <div className="flex items-center gap-12.5 text-[38px] uppercase font-Gilroy-Bold font-medium text-black animate-marquee whitespace-nowrap">
+        <span>Web Design </span>
+        <Star />
+        <span>UX / UI Designer</span>
+        <Star />
+        <span>See all brand</span>
+        <Star />
+        <span>How to get my design</span>
+        <Star />
+        <span>Web Design </span>
+        <Star />
+        <span>UX / UI Designer</span>
+        <Star />
+        <span>See all brand</span>
+        <Star />
+        <span>How to get my design</span>
+        <Star />
+      </div>
     </div>
   );
 };
